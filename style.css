@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background: rgb(32, 44, 54);
+}
+
+.wherer {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    width: 1535px;
+    height: 80px;
+    background: rgb(43, 56, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.where {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.pp {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.for {
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(43, 56, 68);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.card1 {
+    width: 264px;
+    height: 336px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.card2 {
+    width: 264px;
+    height: 336px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.card3 {
+    width: 264px;
+    height: 336px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+
+}
+
+.card4 {
+    width: 264px;
+    height: 336px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.germany {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.population {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 67px;
+}
+
+
+@media screen and (max-width: 600px) {
+   
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+   
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {}
